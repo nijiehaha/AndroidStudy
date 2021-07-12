@@ -2,6 +2,10 @@ package com.example.helloworld
 
 import kotlin.math.max
 
+fun doSomeThing() {
+    println("do something")
+}
+
 fun main() {
 
     Thread {

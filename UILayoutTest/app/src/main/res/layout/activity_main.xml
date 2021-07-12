@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.example.uilayouttest.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<!--    <include layout="@layout/title" />-->
+
+</LinearLayout>
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    >-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button5"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="Button 3"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@+id/button5"-->
+<!--        android:layout_toLeftOf="@+id/button5"-->
+<!--        android:text="Button 1"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@+id/button5"-->
+<!--        android:layout_toRightOf="@+id/button5"-->
+<!--        android:text="Button 2"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/button5"-->
+<!--        android:layout_toRightOf="@+id/button5"-->
+<!--        android:text="Button 3"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/button5"-->
+<!--        android:layout_toLeftOf="@+id/button5"-->
+<!--        android:text="Button 3"-->
+<!--        />-->
+
+
+
+
+
+<!--&lt;!&ndash;    <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:hint="Type something"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:importantForAutofill="no" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <Button&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="send"&ndash;&gt;-->
+<!--&lt;!&ndash;        />&ndash;&gt;-->
+
+<!--</RelativeLayout>-->
+

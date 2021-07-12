@@ -10,9 +10,16 @@ import android.view.MenuItem
 import android.widget.Toast
 import com.example.activitytest.databinding.FirstLayoutBinding
 
-class FirstActivity : AppCompatActivity() {
+class FirstActivity : BaseActivity() {
+
+    companion object {
+        private const val TAG = "FirstActivity"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+//        Log.d(TAG, "onCreate: ${this.toString()}")
+        Log.d(TAG, "onCreate: Task id is $taskId")
         val binding = FirstLayoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.button1.setOnClickListener {
@@ -31,11 +38,20 @@ class FirstActivity : AppCompatActivity() {
 //            val intent = Intent(Intent.ACTION_DIAL)
 //            intent.data = Uri.parse("tel:10086")
 //            startActivity(intent)
-            val data = "Hello SecondActivity"
-            val intent = Intent(this, SecondActivity::class.java)
-            intent.putExtra("extra_data", data)
+//            val data = "Hello SecondActivity"
+//            val intent = Intent(this, SecondActivity::class.java)
+//            intent.putExtra("extra_data", data)
 //            startActivity(intent)
-            startActivityForResult(intent, 1)
+//            startActivityForResult(intent, 1)
+
+//            val intent = Intent(this, FirstActivity::class.java)
+//            startActivity(intent)
+
+//            val intent = Intent(this, SecondActivity::class.java)
+//            startActivity(intent)
+
+            SecondActivity.actionStart(this, "data1", "data2")
+
         }
 
     }
